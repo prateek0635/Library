@@ -42,7 +42,7 @@ if __name__=="__main__":
         print("**************************************************************************")
         print(f"Welcome {Name} to the central library of NIT Patna")
         print("==========================================================================")
-        n=int(input("Enter 0 to exit \nEnter 1 for the Display the all book\n Enter 2 for issueing the book\n"
+        n=int(input("Enter 0 to exit \n Enter 1 for the Display the all book \n Enter 2 for issue the book\n"
                     "Enter 3 to return the book\nEnter 4 to donate a book\n"))
         if n==1:
             Central_Library.Display_Books()
